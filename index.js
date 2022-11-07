@@ -54,13 +54,55 @@
 // console.log(lapsCompleted)
 
 
+//  let countEl = document.getElementById("count-el")
+//  console.log(countEl)
+//  let count = 0
+
+//  function increment() {
+//   	count = count + 1
+//   	countEl.innerText = count
+//   }
+
+
+// function save() {
+// 	console.log(count)
+// }
+
+
+// let username = "john"
+// let message = 'you have 3 new notifications'
+// let messageToUser = message + ", " + username + "!"
+// console.log(messageToUser)
+// console.log(message + ", " + username + "!")
+
+// let name = "Tchinonso"
+// let greetings = "Hi, my name is "
+// let myGreetings = greetings + " " + name
+// console.log(myGreetings)
+
+// let welcomeEl = document.getElementById("welcome-el")
+// let name = "Tchinonso"
+// let greetings = "Hi , how are you? "
+// welcomeEl.innerText = greetings + name
+
+//welcomeEl.innerText = welcomeEl.innerText + "@"
+// welcomeEl.innerText += "#"
+let saveEl = document.getElementById("save-el")
 let countEl = document.getElementById("count-el")
-console.log(countEl)
-let count = 0
+  console.log(countEl)
+  let count = 0
 
-function increment() {
- 	count = count + 1
- 	countEl.innerText = count
+  function increment() {
+   	count += 1
+   	countEl.textContent = count
+   }
+
+
+ function save() {
+	 let countStr = count + " - "
+	 
+	 //saveEl.innerText += countStr
+	 saveEl.textContent += countStr
+	 countEl.textContent = 0
+	 count = 0
  }
-
-
