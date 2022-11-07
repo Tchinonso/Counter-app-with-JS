@@ -32,11 +32,24 @@
 // }
 // hood()
 
-let lap1 = 31
-let lap2 = 33
-let lap3 = 36
+// let lap1 = 31
+// let lap2 = 33
+// let lap3 = 36
 
-function myLap() {
-	console.log(lap1 + lap2 + lap3 )
+// function myLap() {
+// 	console.log(lap1 + lap2 + lap3 )
+// }
+// myLap()
+
+let lapsCompleted = 0
+
+function lapsTime() {
+	lapsCompleted = lapsCompleted + 1
 }
-myLap()
+
+lapsTime()
+lapsTime()
+lapsTime()
+
+console.log(lapsCompleted)
+
