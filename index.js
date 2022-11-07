@@ -41,15 +41,21 @@
 // }
 // myLap()
 
-let lapsCompleted = 0
+// let lapsCompleted = 0
 
-function lapsTime() {
-	lapsCompleted = lapsCompleted + 1
+// function lapsTime() {
+// 	lapsCompleted = lapsCompleted + 1
+// }
+
+// lapsTime()
+// lapsTime()
+// lapsTime()
+
+// console.log(lapsCompleted)
+
+let count = 0
+
+function increment() {
+	count = count + 1
+	console.log(count)
 }
-
-lapsTime()
-lapsTime()
-lapsTime()
-
-console.log(lapsCompleted)
-
